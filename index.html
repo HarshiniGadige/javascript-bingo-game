@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BINGO | Game</title>
+</head>
+<body>
+	<div class="ocontainer">
+		<h2>The BINGO Game</h2>
+		<table id="bingo-table">
+			<tbody>
+				<tr id="headrow">
+					<td>B</td>
+					<td>I</td>
+					<td>N</td>
+					<td>G</td>
+					<td>O</td>
+				</tr>
+				<tr id="row1">
+					<td id="square1"></td>
+					<td id="square2"></td>
+					<td id="square3"></td>
+					<td id="square4"></td>
+					<td id="square5"></td>
+				</tr>
+				<tr>
+					<td id="square6"></td>
+					<td id="square7"></td>
+					<td id="square8"></td>
+					<td id="square9"></td>
+					<td id="square10"></td>
+				</tr>
+				<tr>
+					<td id="square11"></td>
+					<td id="square12"></td>
+					<td id="square13"></td>
+					<td id="square14"></td>
+					<td id="square15"></td>
+				</tr>
+				<tr>
+					<td id="square16"></td>
+					<td id="square17"></td>
+					<td id="square18"></td>
+					<td id="square19"></td>
+					<td id="square20"></td>
+				</tr>
+				<tr>
+					<td id="square21"></td>
+					<td id="square22"></td>
+					<td id="square23"></td>
+					<td id="square24"></td>
+					<td id="square25"></td>
+				</tr>
+			</tbody>
+		</table>
+		<p><a href="" onclick="reload()">Click here </a>to create a new card</p>
+		<div class="icontainer">
+			<h3>How to Play</h3>
+			<p id="rules">The center of the card is an empty space. After that the game begins, and the caller selects numbers at a random and calls them. As soon as the caller calls one number, all the players mark it on their tickets. The winner is determined when one or several of the players complete the winning bingo pattern. For more information, visit <a href="http://bingorules.org/bingo-rules.html"><span style="font-variant:small-caps">Bingo Rules</span></a></p>
+		</div>
+		<div id="readbutton"><a href="#" id="anc" onclick="readmore(event)">Read More</a></div>
+	</div>
+</body>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"></script>
+</html>

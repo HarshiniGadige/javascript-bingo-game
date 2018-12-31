@@ -1,0 +1,53 @@
+h2 {
+	font-size: 32px;
+	text-align: center;
+}
+.ocontainer, .icontainer{
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+}
+#bingo-table,th,td {
+	width: 100%;
+	height: 40px;
+	border: 2px solid #222;
+	border-collapse: collapse;
+}
+#headrow {
+	font-weight: bold;
+	font-size: 24px
+}
+tbody tr td{
+	width: 20%;
+	text-align: center;
+}
+tbody {
+	border: 1px solid black;
+}
+#rules {
+	font-size: 20px;
+	width: 100%;
+	text-align: justify;
+	height: 20px;
+	overflow: hidden;
+}
+#readbutton{
+	background: #ccc;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	padding: 5px 0px;
+}
+
+#readbutton:hover{
+	cursor: pointer;
+	background: #888;
+}
+#rules p{
+	overflow: hidden;
+	height: 20px;
+}
+#anc {
+	width: 100%;
+}
